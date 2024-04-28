@@ -1,0 +1,99 @@
+.title {
+  color: #4e5153;
+  margin: 10px;
+}
+
+.table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: antiquewhite;
+  color: #4e5153;
+}
+
+.delete_btn {
+  display: inline-block;
+  background-color: #ef082b;
+  color: white;
+  padding: 5px 10px;
+}
+
+.delete_btn:hover {
+  background-color: #ea6e80;
+}
+
+.add_btn {
+  display: inline-block;
+  background-color: #45a049;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.add_btn:hover {
+  background-color: #71ae73;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 30%;
+  margin: 10px;
+  background-color: antiquewhite;
+}
+
+.form_title {
+  margin-bottom: 10px;
+  color: #4e5153;
+}
+
+.form input {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form_btn {
+  display: flex;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.btn_save {
+  background-color: #45a049;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn_save:hover {
+  background-color: #72a373;
+}
+
+.btn_cancel {
+  background-color: #2763e8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn_cancel:hover {
+  background-color: #7097ec;
+}
+
